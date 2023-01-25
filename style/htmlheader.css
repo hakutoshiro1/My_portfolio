@@ -1,0 +1,35 @@
+html
+{
+    color: #ffffff;
+    font-family: 'Courier New', Courier, monospace;
+}
+body
+{
+    background-color: #222222;
+}
+.myhtml_header
+{
+    display: flex;
+    flex-direction: row;
+}
+.Myportfolio
+{
+    flex:1;
+    margin-top: 0px;
+}
+.mysection_btns
+{
+    display: flex;
+    height: 20px;
+    width: 70px;
+    border-radius: 10px;
+    border: 0px;
+    /* justify-content: flex-end; */
+    /* align-items:center ; */
+    /* background-color: yellow; */
+    margin-top: 5px;
+}
+#mysections_menubtn
+{
+    display: flex;
+}
