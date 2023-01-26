@@ -5,31 +5,70 @@ html
 }
 body
 {
-    background-color: #222222;
+    background-color: #333333;
 }
 .myhtml_header
 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     flex-direction: row;
+    background-color: #1f1f1f;
+    
 }
 .Myportfolio
 {
     flex:1;
-    margin-top: 0px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.mysections{
+    /* background-color: yellow; */
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 25px;
+    top: 13px;
+    align-items: center;
 }
 .mysection_btns
 {
+    position: relative;
     display: flex;
-    height: 20px;
-    width: 70px;
-    border-radius: 10px;
+    height: 50px;
+    width: 110px;
+    border-radius: 25px;
     border: 0px;
-    /* justify-content: flex-end; */
-    /* align-items:center ; */
-    /* background-color: yellow; */
-    margin-top: 5px;
+    margin-top: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
 }
+
 #mysections_menubtn
 {
-    display: flex;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    background-color: #1f1f1f;
+}
+
+.menubtnimg
+{
+    height: 20px;
+    padding-top: 2px;
+}
+#closemenu
+{
+    margin-left: 6px;
+    margin-top: -1px;
+}
+#lio
+{
+    position: absolute;
+    top: -6px;
+    left:125px;
+    color: red;
 }

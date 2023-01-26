@@ -7,17 +7,21 @@
     <title>Portfolio</title>
     <link rel="stylesheet" href="style/htmlheader.css">
 </head>
-<body>
+<body style="height: 3000px;padding-top: 60px;">
     <div class="myhtml">
         <div class="myhtml_header">
-            <h1 class="Myportfolio">Portfolio</h1>
+            <h1 class="Myportfolio">Portfo</h1>
+            <h1 id="lio">lio</h1>
             <div class="mysections">
-                <button class="mysection_mainbtn" id="mysections_menubtn"><strong>≣</strong></button>
-                <button class="mysection_btns" style="display:block;" id="mysections_homebtn">Home</button>
-                <button style="display:block;" class="mysection_btns"  id="mysections_aboutbtn">About</button>
-                <button style="display:block;" class="mysection_btns"  id="mysections_portfoliobtn">Portfolio</button>
-                <button style="display:block;" class="mysection_btns"  id="mysections_servicesbtn">Services</button>
-                <button style="display:block;" class="mysection_btns" id="mysections_contactbtn">Contact</button>
+                <button class="mysection_mainbtn" id="mysections_menubtn">
+                    <img src="images/menubtn.png" class="menubtnimg" id="hambmenu" style="display: block;">
+                    <img src="images/closemenu.png" class="menubtnimg" id="closemenu" style="display: none;">
+                </button>
+                <button class="mysection_btns" style="display:none;" id="mysections_homebtn">Home</button>
+                <button style="display:none;" class="mysection_btns"  id="mysections_aboutbtn">About</button>
+                <button style="display:none;" class="mysection_btns"  id="mysections_portfoliobtn">Portfolio</button>
+                <button style="display:none;" class="mysection_btns"  id="mysections_servicesbtn">Services</button>
+                <button style="display:none;" class="mysection_btns" id="mysections_contactbtn">Contact</button>
             </div>
         </div>
         <div class="myhome">
@@ -25,6 +29,6 @@
             <p class="myhome_header_detail">I am a <strong style="font-size: large;color: red;">Web Developer</strong>.</p>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script src="script/htmlheader.js"></script>
 </body>
 </html>

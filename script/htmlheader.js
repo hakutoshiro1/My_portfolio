@@ -1,0 +1,25 @@
+headermenu=document.getElementById("mysections_menubtn");
+headermenu.onclick=()=>
+{
+    mysectionbtns=document.querySelectorAll(".mysection_btns");
+    mysectionbtns.forEach((element)=>
+    {
+        hambmenu=document.getElementById("hambmenu")
+        closemenu=document.getElementById("closemenu")
+        if(element.style.display=="block")
+        {
+            element.style.display="none"
+            hambmenu.style.display="block";
+            closemenu.style.display="none";
+            headermenu.style.backgroundColor="#1f1f1f";
+        }
+        else 
+        {
+            element.style.display="block"
+            hambmenu.style.display="none";
+            closemenu.style.display="block";
+            headermenu.style.backgroundColor="#333333";
+        }
+
+    });
+}
